@@ -4,8 +4,5 @@ AllCops:
     - 'config/**/*'
     - 'bin/{rails,rake,bundle,spring,setup,update}'
 
-Rails:
-  Enabled: true
-
 Documentation:
   Enabled: false

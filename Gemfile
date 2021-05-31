@@ -12,7 +12,7 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 gem 'rubocop-rails', require: false
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'faker'
   gem 'guard-rspec', require: false
   gem 'rspec-rails', '~> 5.0.0'
@@ -28,4 +28,4 @@ group :test do
   gem 'shoulda-matchers', '~> 4.0'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
