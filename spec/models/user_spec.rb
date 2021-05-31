@@ -11,5 +11,7 @@ RSpec.describe User, type: :model do
   end
 
   context 'Associations' do
+    specify { should have_one(:wallet) }
+    specify { should have_many(:transactions) }
   end
 end
