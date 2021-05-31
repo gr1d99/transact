@@ -7,5 +7,5 @@ class User < ApplicationRecord
   end
 
   has_one :wallet
-  has_many :transactions, foreign_key: :from
+  has_many :transactions, foreign_key: :from_id
 end
