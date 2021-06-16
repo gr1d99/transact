@@ -36,6 +36,6 @@ module Transact
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-    config.hosts << 'ec2-35-158-138-163.eu-central-1.compute.amazonaws.com'
+    config.hosts << "gr1d99.co.ke"
   end
 end
